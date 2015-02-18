@@ -1,5 +1,5 @@
 #Spartakiade 2015
-![spartakiade logo](images/logo_spartakiade.png|width=100px)
+<p align="center"><img src="images/logo_spartakiade.png" width=100/></p>
 
 Web: http://spartakiade.org/  
 Twitter: http://twitter.com/spartakiade_org
@@ -20,16 +20,33 @@ Wie soll ich das nur machen?<br>
 Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf Spartakiade und lerne wie man mit AOP solche Probleme rational und sicher lösen kann.
 
 ## Inhalt
-1. [Themen](#themen)
+1. [Inhalt](#inhalt)
 2. [Teilnehmer-Voraussetzungen](#voraussetzungen)
 
 <a name="themen"></a>
-## 1. Themen
-Im Workshop gibt es ein paar Folien zu den theorischen Grundlagen und viele praktische Beispiele und Übungen.
+## 1. Inhalt
+Im Workshop gibt es ein paar Folien zu den theorischen Grundlagen und viele praktische Beispiele und gemeinsamen Übungen. 
 
+Die folgende Liste gibt einen Überblick über möglich Themen.
+- Was ist AOP?
+- Wege der Implementierung
+  - Dependency Injection Containern
+  - IL Manipulation
+- Einfache Aspekte
+  - Fehlerbehandlung
+  - Logging der Ausführungsdauer
+- AOP und Legacy Anwendungen
+  - Caching und Logging für ASMX-Webservices
+  - Erweiterung von WinForms Formularen
+- Erweiterte Aspekte
+  - Änderungsverfolgung
+  - Validierung
+  - Sicheres Multithreading
+  - Implementierung von Schnittstellen
 
+PostSharp unterstützt die Spartakiade mit Büchern und Lizenzen die am Ende verlost werden.
 
 <a name="voraussetzungen"></a>
 ## 2. Teilnehmer-Voraussetzungen
-- [x] Notebook mit Visual Studio
-- [x] Git-Client
+[x] Notebook mit Visual Studio<br>
+[x] Git-Client
