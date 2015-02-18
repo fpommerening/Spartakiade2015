@@ -3,6 +3,7 @@
 
 Web: http://spartakiade.org/  
 Twitter: http://twitter.com/spartakiade_org
+Datum: 21. bis 22. März 2015
 
 # Workshop: Rettung für Legacy Applikationen mit AOP
 mit Frank Pommerening
@@ -17,14 +18,20 @@ Wie soll ich das nur machen?<br>
 1. Einen Praktikanten rufen - Mist gibt keinen.<br>
 2. Selber machen - das dauert ja Wochen.<br>
 
-Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf Spartakiade und lerne wie man mit AOP solche Probleme rational und sicher lösen kann.
+Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf der Spartakiade und lerne aus erster Hand wie man mit AOP solche Probleme rational und sicher lösen kann.
 
 ## Inhalt
-1. [Inhalt](#inhalt)
-2. [Teilnehmer-Voraussetzungen](#voraussetzungen)
+1. [Zielgruppe](#zielgruppe)
+2. [Inhalt](#inhalt)
+3. [Teilnehmer-Voraussetzungen](#voraussetzungen)
+
+
+<a name="zielgruppe"></a>
+## 1. Zielgruppe
+Der Workshop ist für Entwickler die unter altem Code leiden oder sich mehr auf den Kundennutzen konzentrieren wollen.
 
 <a name="themen"></a>
-## 1. Inhalt
+## 2. Inhalt
 Im Workshop gibt es ein paar Folien zu den theoretischen Grundlagen und viele praktische Beispiele und gemeinsamen Übungen. 
 
 Die folgende Liste gibt einen Überblick über mögliche Themen.
@@ -47,6 +54,6 @@ Die folgende Liste gibt einen Überblick über mögliche Themen.
 PostSharp unterstützt die Spartakiade mit Büchern und Lizenzen die am Ende verlost werden.
 
 <a name="voraussetzungen"></a>
-## 2. Teilnehmer-Voraussetzungen
+## 3. Teilnehmer-Voraussetzungen
 [x] Notebook mit Visual Studio<br>
 [x] Git-Client
