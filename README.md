@@ -1,5 +1,5 @@
 #Spartakiade 2015
-<p align="center"><img src="images/logo_spartakiade.png" width=200/></p>
+[[/images/logo_spartakiade.png|width=100px]]
 
 Web: http://spartakiade.org/  
 Twitter: http://twitter.com/spartakiade_org
@@ -25,9 +25,11 @@ Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf Spartakiade un
 
 <a name="themen"></a>
 ## 1. Themen
+Im Workshop gibt es ein paar Folien zu den theorischen Grundlagen und viele praktische Beispiele und Übungen.
+
 
 
 <a name="voraussetzungen"></a>
 ## 2. Teilnehmer-Voraussetzungen
-1. Notebook mit Visual Studio
-2. Git-Client
+- [x] Notebook mit Visual Studio
+- [x] Git-Client
