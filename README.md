@@ -25,9 +25,9 @@ Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf Spartakiade un
 
 <a name="themen"></a>
 ## 1. Inhalt
-Im Workshop gibt es ein paar Folien zu den theorischen Grundlagen und viele praktische Beispiele und gemeinsamen Übungen. 
+Im Workshop gibt es ein paar Folien zu den theoretischen Grundlagen und viele praktische Beispiele und gemeinsamen Übungen. 
 
-Die folgende Liste gibt einen Überblick über möglich Themen.
+Die folgende Liste gibt einen Überblick über mögliche Themen.
 - Was ist AOP?
 - Wege der Implementierung
   - Dependency Injection Containern
