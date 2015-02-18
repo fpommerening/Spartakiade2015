@@ -9,13 +9,13 @@ mit Frank Pommerening
 
 *Von einem der auszog um mit AOP die Schrecken* **Legacy Anwendungen** *und* **nichtfunktionale Anforderungen** *zu besiegen.*
 
-Eine wahre Geschichte:
 
+Eine wahre Geschichte:
 Es gibt eine WinForms-Anwendung die bei vielen Kunden läuft und hochkomplex ist. Der Kunde will nun die Integration eines Dokumentensystems das zu jedem Datum die zugehörigen Dokumente zeigt. Die Anwendung besteht aber aus mehr als 100 Formularen.
 
-Wie soll ich das nur machen?<br>
-1. Einen Praktikanten rufen - Mist gibt keinen.<br>
-2. Selber machen - das dauert ja Wochen.<br>
+Wie soll ich das nur machen?
+1. Einen Praktikanten rufen - Mist gibt keinen.
+2. Selber machen - das dauert ja Wochen.
 
 Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf Spartakiade und lerne wie man mit AOP solche Probleme rational und sicher lösen kann.
 
