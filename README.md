@@ -1,5 +1,5 @@
 #Spartakiade 2015
-![/images/logo_spartakiade.png|width=100px]
+![spartakiade logo](images/logo_spartakiade.png|width=100px)
 
 Web: http://spartakiade.org/  
 Twitter: http://twitter.com/spartakiade_org
