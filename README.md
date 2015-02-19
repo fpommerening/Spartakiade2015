@@ -3,22 +3,23 @@
 
 Web: http://spartakiade.org/  
 Twitter: http://twitter.com/spartakiade_org
+
 Datum: 21. bis 22. März 2015
 
 # Workshop: Rettung für Legacy Applikationen mit AOP
 mit Frank Pommerening
 
-*Von einem der auszog um mit AOP die Schrecken* **Legacy Anwendungen** *und* **nichtfunktionale Anforderungen** *zu besiegen.*
+*Von Einem, der auszog, um mit AOP die Schrecken* **Legacy Anwendungen** *und* **nichtfunktionale Anforderungen** *zu besiegen.*
 
 
 Eine wahre Geschichte:<br>
-Es gibt eine WinForms-Anwendung die bei vielen Kunden läuft und hochkomplex ist. Der Kunde will nun die Integration eines Dokumentensystems das zu jedem Datum die zugehörigen Dokumente zeigt. Die Anwendung besteht aber aus mehr als 100 Formularen.
+Es gibt eine WinForms-Anwendung, die zwar von vielen Kunden genutzt wird, aber hochkomplex ist. Der Kunde möchte nun ein Dokumentensystem integrieren, das zu jedem Datum die zugehörigen Dokumente zeigt. Die Anwendung besteht aber aus mehr als 100 Formularen.
 
 Wie soll ich das nur machen?<br>
-1. Einen Praktikanten rufen - Mist gibt keinen.<br>
-2. Selber machen - das dauert ja Wochen.<br>
+1. Einen Praktikanten rufen? – Mist, es gibt keinen!<br>
+2. Vielleicht doch gleich selber machen? - Das würde ja Wochen dauern!<br>
 
-Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf der Spartakiade und lerne aus erster Hand wie man mit AOP solche Probleme rational und sicher lösen kann.
+Kommen dir solche Probleme bekannt vor? Dann komm zum Workshop auf der Spartakiade und lerne aus erster Hand, wie man mit AOP solche Probleme rational und sicher lösen kann.
 
 ## Inhalt
 1. [Zielgruppe](#zielgruppe)
@@ -28,30 +29,30 @@ Kommt dir solche Probleme bekannt vor? Dann komm zum Workshop auf der Spartakiad
 
 <a name="zielgruppe"></a>
 ## 1. Zielgruppe
-Der Workshop ist für Entwickler die unter altem Code leiden oder sich mehr auf den Kundennutzen konzentrieren wollen.
+Der Workshop richtet sich an Entwickler, die unter altem Code leiden oder sich mehr auf den Kundennutzen konzentrieren wollen.
 
 <a name="themen"></a>
 ## 2. Inhalt
-Im Workshop gibt es ein paar Folien zu den theoretischen Grundlagen und viele praktische Beispiele und gemeinsamen Übungen. 
+Einführend erhalten die Teilnehmer anhand von Folien Informationen zu den theoretischen Grundlagen. Darüber hinaus jedoch setzt der Workshop einen deutlichen Akzent auf Praxisnähe und Anwendbarkeit. Viele praktische Beispiele und gemeinsame Übungen sollen den Teilnehmern Lösungen für Probleme an die Hand geben, die den Entwickler-Alltag bestimmen.
 
 Die folgende Liste gibt einen Überblick über mögliche Themen.
 - Was ist AOP?
-- Wege der Implementierung
-  - Dependency Injection Containern
+- Wege der Implementierung 
+  - Dependency Injection Container
   - IL Manipulation
-- Einfache Aspekte
+- Einfache Aspekte 
   - Fehlerbehandlung
   - Logging der Ausführungsdauer
-- AOP und Legacy Anwendungen
+- AOP und Legacy Anwendungen 
   - Caching und Logging für ASMX-Webservices
   - Erweiterung von WinForms Formularen
-- Erweiterte Aspekte
+- Erweiterte Aspekte 
   - Änderungsverfolgung
   - Validierung
   - Sicheres Multithreading
   - Implementierung von Schnittstellen
 
-PostSharp unterstützt die Spartakiade mit Büchern und Lizenzen die am Ende verlost werden.
+PostSharp unterstützt die Spartakiade mit Büchern und Lizenzen, die am Ende verlost werden.
 
 <a name="voraussetzungen"></a>
 ## 3. Teilnehmer-Voraussetzungen
