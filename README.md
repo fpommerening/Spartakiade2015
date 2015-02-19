@@ -51,10 +51,12 @@ Die folgende Liste gibt einen Überblick über mögliche Themen.
   - Validierung
   - Sicheres Multithreading
   - Implementierung von Schnittstellen
-
+  
 PostSharp unterstützt die Spartakiade mit Büchern und Lizenzen, die am Ende verlost werden.
 
 <a name="voraussetzungen"></a>
 ## 3. Teilnehmer-Voraussetzungen
 [x] Notebook mit Visual Studio<br>
 [x] Git-Client
+
+*In diesem GitHub-Repository werden die Initial-Projekte für die Übungen veröffentlich.*
