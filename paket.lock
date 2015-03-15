@@ -1,0 +1,6 @@
+NUGET
+  remote: https://nuget.org/api/v2
+  specs:
+    Ninject (3.2.2.0)
+    Ninject.Extensions.Interception (3.2.0.0)
+      Ninject (>= 3.2.0.0 < 3.3.0.0)
