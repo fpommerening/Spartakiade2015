@@ -1,5 +1,6 @@
 ﻿using System;
 using FP.Spartakiade2015.DurationNinject.DAL;
+using log4net;
 using Ninject;
 
 namespace FP.Spartakiade2015.DurationNinject.ConsoleApp
@@ -8,6 +9,8 @@ namespace FP.Spartakiade2015.DurationNinject.ConsoleApp
     {
         static void Main(string[] args)
         {
+            log4net.Config.XmlConfigurator.Configure();
+            ILog logger = LogManager.GetLogger(typeof (Program));
             try
             {
                 IKernel kernel = new StandardKernel();
