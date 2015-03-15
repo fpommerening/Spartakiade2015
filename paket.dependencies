@@ -3,3 +3,4 @@ source https://nuget.org/api/v2
 nuget Ninject.Extensions.Interception.DynamicProxy
 nuget Castle.Core 3.2
 nuget log4net
+nuget AutoMapper
