@@ -1,11 +1,9 @@
 ﻿using System;
-using System.CodeDom;
-using BL;
-using FP.Spartakiade2015.DurationNinject.DAL;
-using log4net;
+using FP.Spartakiade2015.ExceptionHandlingNinject.BL;
+using FP.Spartakiade2015.ExceptionHandlingNinject.DAL;
 using Ninject;
 
-namespace FP.Spartakiade2015.DurationNinject.ConsoleApp
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.ConsoleApp
 {
     class Program
     {

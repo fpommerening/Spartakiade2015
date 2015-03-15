@@ -1,6 +1,6 @@
-﻿using FP.Spartakiade2015.DurationNinject.DAL;
+﻿using FP.Spartakiade2015.ExceptionHandlingNinject.DAL;
 
-namespace BL
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.BL
 {
     public class UserMappings
     {

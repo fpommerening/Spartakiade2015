@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BL
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.BL
 {
     public class UserViewModel
     {

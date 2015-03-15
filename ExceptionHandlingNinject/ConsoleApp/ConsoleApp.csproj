@@ -7,7 +7,7 @@
     <ProjectGuid>{15559871-9529-47DD-A0D1-586E0F9F5B8A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FP.Spartakiade2015.DurationNinject.ConsoleApp</RootNamespace>
+    <RootNamespace>FP.Spartakiade2015.ExceptionHandlingNinject.ConsoleApp</RootNamespace>
     <AssemblyName>ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

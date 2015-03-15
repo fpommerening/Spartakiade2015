@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FP.Spartakiade2015.DurationNinject.DAL;
+using FP.Spartakiade2015.ExceptionHandlingNinject.DAL;
 
-namespace BL
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.BL
 {
     public class BusinessLayer
     {

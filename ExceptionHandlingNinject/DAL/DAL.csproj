@@ -7,7 +7,7 @@
     <ProjectGuid>{B799D55F-D640-4B7C-B428-926F47F663F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FP.Spartakiade2015.DurationNinject.DAL</RootNamespace>
+    <RootNamespace>FP.Spartakiade2015.ExceptionHandlingNinject.DAL</RootNamespace>
     <AssemblyName>DAL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

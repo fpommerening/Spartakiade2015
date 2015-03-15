@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FP.Spartakiade2015.DurationNinject.DAL
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.DAL
 {
     public interface IUserRepository
     {

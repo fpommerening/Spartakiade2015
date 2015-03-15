@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FP.Spartakiade2015.DurationNinject.DAL
+namespace FP.Spartakiade2015.ExceptionHandlingNinject.DAL
 {
     public class UserRepository : IUserRepository
     {

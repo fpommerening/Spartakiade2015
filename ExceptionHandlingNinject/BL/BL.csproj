@@ -7,7 +7,7 @@
     <ProjectGuid>{E3326642-91F5-4605-87CE-51176759F73B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BL</RootNamespace>
+    <RootNamespace>FP.Spartakiade2015.ExceptionHandlingNinject.BL</RootNamespace>
     <AssemblyName>BL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
