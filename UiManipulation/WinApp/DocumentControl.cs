@@ -3,11 +3,11 @@ using FP.Spartakiade2015.UiManipulation.BL;
 
 namespace FP.Spartakiade2015.UiManipulation.WinApp
 {
-    public partial class AdditionalControl : UserControl
+    public partial class DocumentControl : UserControl
     {
         public DocumentController Controller { get; private set; }
 
-        public AdditionalControl()
+        public DocumentControl()
         {
             InitializeComponent();
             Controller = new DocumentController();

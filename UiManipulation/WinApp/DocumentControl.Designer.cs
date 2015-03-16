@@ -1,6 +1,6 @@
 ﻿namespace FP.Spartakiade2015.UiManipulation.WinApp
 {
-    partial class AdditionalControl
+    partial class DocumentControl
     {
         /// <summary> 
         /// Required designer variable.
