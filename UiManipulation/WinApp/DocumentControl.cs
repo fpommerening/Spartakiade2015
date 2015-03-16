@@ -18,7 +18,5 @@ namespace FP.Spartakiade2015.UiManipulation.WinApp
         {
             labObjectId.Text = string.Format("zu Objekt {0} geladen", Controller.ObjectId);
         }
-
-
     }
 }
