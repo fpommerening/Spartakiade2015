@@ -1,0 +1,1 @@
+<%@ WebService  Class="FP.Spartakiade2015.WebserviceCache.Webservice.CustomerServiceImplementation" %>

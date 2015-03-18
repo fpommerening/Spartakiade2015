@@ -8,21 +8,19 @@ namespace FP.Spartakiade2015.WebserviceCache.TestConsole
         {
             try
             {
-                using (BookCapacityService client = new BookCapacityService { Url = "http://localhost:49874/EnergyService.asmx" })
+                using (CustomerInfoService client = new CustomerInfoService { Url = "http://localhost:49145/CustomerService.asmx" })
                 {
-                    
-                    var request = new BookCapacityRequestType
+
+                    var request = new CustomerInfoRequestType
                     {
-                        Customer = "Frank Pommerening",
-                        MessageIdentifier = Guid.NewGuid().ToString("D"),
-                        Quantity = 5000,
-                        Unit = CapacityUnit.KWh,
-                        ValidFrom = DateTime.Now.AddDays(1),
-                        ValidTo = DateTime.Now.AddMonths(1).AddDays(1)
+                        FirstName = "Max",
+                        Name = "Mustermann",
+                        Street = "Teststraße",
+                        ZipCode = "12345"
                     };
-                    Console.WriteLine("Starte Kapazitätsanfrage");
-                    var result = client.BookCapacity(request);
-                    Console.WriteLine("{0}: {1} {2}", result.MessageIdentifier, result.Quantity, result.Unit);
+                    Console.WriteLine("Starte Kundenabfrage");
+                    var result = client.CustomerInfo(request);
+                    Console.WriteLine("{0}: {1} {2} {3}", result.CustomerId, result.FirstName, result.Name, result.ReliabilityIndex);
                 }
             }
             catch (Exception exception)

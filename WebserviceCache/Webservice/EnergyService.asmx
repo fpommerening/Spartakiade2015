@@ -1,1 +1,0 @@
-<%@ WebService  Class="FP.Spartakiade2015.WebserviceCache.Webservice.EnergyServiceImplementation" %>
