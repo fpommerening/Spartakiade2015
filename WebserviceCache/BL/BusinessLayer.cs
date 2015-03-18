@@ -5,12 +5,27 @@ namespace FP.Spartakiade2015.WebserviceCache.BL
 {
     public class BusinessLayer
     {
-        public decimal CheckAvailableCapacity(string customer, DateTime validFrom, DateTime validTo, decimal quantity,
-            CapacityUnit unit)
+        public BOCustomer GetCustomerInfo(string name, string firstName, string street, string zipCode)
         {
             System.Threading.Thread.Sleep(1500);
-            return quantity/2;
+            return new BOCustomer
+            {
+                Id = 42,
+                City = "Musterhausen",
+                FirstName = firstName,
+                Name = name,
+                Street = street,
+                Title = Title.Herr,
+                ZipCode = zipCode,
+                ReliabilityIndex = CalculateReliabilityIndex(42)
+            };
+            
         }
 
+        private decimal CalculateReliabilityIndex(int customerId)
+        {
+            System.Threading.Thread.Sleep(1500);
+            return 97.2m;
+        }
     }
 }

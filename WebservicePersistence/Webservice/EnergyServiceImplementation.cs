@@ -1,6 +1,6 @@
 ﻿using System;
-using FP.Spartakiade2015.WebserviceCache.BL;
-using FP.Spartakiade2015.WebserviceCache.Contracts;
+using FP.Spartakiade2015.WebservicePersistence.BL;
+using FP.Spartakiade2015.WebservicePersistence.Contracts;
 
 namespace FP.Spartakiade2015.WebserviceCache.Webservice
 {
