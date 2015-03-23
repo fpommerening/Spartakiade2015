@@ -3,6 +3,7 @@ using System.Linq;
 
 namespace FP.Spartakiade2015.DurationPostSharp.DAL
 {
+    [DurationLoggingAspect]
     public class UserRepository : IUserRepository
     {
         public UserRepository()
@@ -34,11 +35,13 @@ namespace FP.Spartakiade2015.DurationPostSharp.DAL
 
         public List<DOUser> GetAllUsers()
         {
+            System.Threading.Thread.Sleep(1500);
             return Users;
         }
 
         public DOUser GetUserById(int userId)
         {
+
             return Users.FirstOrDefault(x => x.Id == userId);
         }
 
