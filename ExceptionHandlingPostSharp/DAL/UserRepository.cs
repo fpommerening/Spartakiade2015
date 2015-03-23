@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace FP.Spartakiade2015.ExceptionHandlingPostSharp.DAL
 {
+    //[WrapDALExceptionAspect]
     public class UserRepository : IUserRepository
     {
         public UserRepository()
