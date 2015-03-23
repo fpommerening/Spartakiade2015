@@ -6,6 +6,7 @@ namespace FP.Spartakiade2015.WebserviceCache.Webservice
 {
     public class CustomerServiceImplementation : ICustomerInfo_Binding
     {
+        [ServiceCacheAspect(150)]
         public CustomerInfoResponseType CustomerInfo(CustomerInfoRequestType request)
         {
             var bl = new BusinessLayer();

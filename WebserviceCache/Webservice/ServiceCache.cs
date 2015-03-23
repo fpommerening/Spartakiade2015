@@ -13,13 +13,13 @@ namespace FP.Spartakiade2015.WebserviceCache.Webservice
 
         private static bool  cleanUpRunning;
 
-        public static object GetItem(string methodHash, string parameterHashCode)
+        public static object GetItem(string methodHash, string serializedParameter)
         {
             ServiceCacheItem cachedItem;
 
             lock (syncRoot)
             {
-                cachedItem = Items.FirstOrDefault(x => x.MethodHash == methodHash && x.SerializedParameter == parameterHashCode &&
+                cachedItem = Items.FirstOrDefault(x => x.MethodHash == methodHash && x.SerializedParameter == serializedParameter &&
                      x.UseUntilTimestamp > DateTime.Now);
             }
             
@@ -27,11 +27,11 @@ namespace FP.Spartakiade2015.WebserviceCache.Webservice
             return cachedItem == null ? null : cachedItem.Value;
         }
 
-        public static void AddItem(string methodName, string serializedParameter, object value, TimeSpan cacheTimespan)
+        public static void AddItem(string methodHash, string serializedParameter, object value, TimeSpan cacheTimespan)
         {
             var item = new ServiceCacheItem
             {
-                MethodHash = methodName,
+                MethodHash = methodHash,
                 SerializedParameter = serializedParameter,
                 UseUntilTimestamp = DateTime.Now.Add(cacheTimespan),
                 Value = value

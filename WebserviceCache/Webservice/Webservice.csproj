@@ -74,6 +74,7 @@
     <Compile Include="CustomerServiceImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceCache.cs" />
+    <Compile Include="ServiceCacheAspect.cs" />
     <Compile Include="ServiceCacheItem.cs" />
   </ItemGroup>
   <ItemGroup>
