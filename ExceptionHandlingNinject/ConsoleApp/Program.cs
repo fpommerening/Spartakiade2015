@@ -2,6 +2,7 @@
 using FP.Spartakiade2015.ExceptionHandlingNinject.BL;
 using FP.Spartakiade2015.ExceptionHandlingNinject.DAL;
 using Ninject;
+using Ninject.Extensions.Interception.Infrastructure.Language;
 
 namespace FP.Spartakiade2015.ExceptionHandlingNinject.ConsoleApp
 {
@@ -16,7 +17,7 @@ namespace FP.Spartakiade2015.ExceptionHandlingNinject.ConsoleApp
                 mappings.CreateMapping();
 
                 IKernel kernel = new StandardKernel();
-                kernel.Bind<IUserRepository>().To<UserRepository>();
+                kernel.Bind<IUserRepository>().To<UserRepository>().Intercept().With<WrapDALExceptionInterception>();
 
                 BusinessLayer businessLayer = kernel.Get<BusinessLayer>();
                 

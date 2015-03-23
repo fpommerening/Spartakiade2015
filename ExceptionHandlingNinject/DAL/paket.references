@@ -1,2 +1,3 @@
 ﻿AutoMapper
 Ninject.Extensions.Interception.DynamicProxy
+log4Net
