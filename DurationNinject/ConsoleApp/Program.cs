@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Diagnostics;
 using FP.Spartakiade2015.DurationNinject.DAL;
 using log4net;
 using Ninject;
+using Ninject.Extensions.Interception;
+using Ninject.Extensions.Interception.Infrastructure.Language;
 
 namespace FP.Spartakiade2015.DurationNinject.ConsoleApp
 {
@@ -14,7 +17,26 @@ namespace FP.Spartakiade2015.DurationNinject.ConsoleApp
             try
             {
                 IKernel kernel = new StandardKernel();
-                kernel.Bind<IUserRepository>().To<UserRepository>();
+                
+
+                var interceptor = new ActionInterceptor(invocation =>
+                {
+                    var sw = new Stopwatch();
+                    sw.Start();
+                    try
+                    {
+                        invocation.Proceed();
+                    }
+                    finally
+                    {
+                        sw.Stop();
+                        logger.DebugFormat("Die Ausführung der Methode {0} dauerte {1} ms",
+                            invocation.Request.Method,
+                            sw.ElapsedMilliseconds);
+                    }
+                });
+                kernel.Bind<IUserRepository>().To<UserRepository>().Intercept()
+                    .With(interceptor);
 
                 IUserRepository userRepo = kernel.Get<IUserRepository>();
 

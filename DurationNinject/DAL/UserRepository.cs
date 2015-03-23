@@ -34,6 +34,7 @@ namespace FP.Spartakiade2015.DurationNinject.DAL
 
         public List<DOUser> GetAllUsers()
         {
+            System.Threading.Thread.Sleep(1500);
             return Users;
         }
 
